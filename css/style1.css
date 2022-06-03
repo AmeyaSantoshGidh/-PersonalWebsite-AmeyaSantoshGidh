@@ -1,0 +1,120 @@
+#example2 {
+    border: 2px solid black;
+    padding: 100px;
+    background: url("../static/background_pc.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+  }
+  .ProfileImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(70, 71, 72);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 8px 8px;
+    grid-template-columns: auto auto auto;
+    background-color: #d5dee6;
+    padding: 6px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .text{
+    /* background-color:aqua; */
+    font-size: 14px;
+  }
+  
+  .Data{
+    text-align: center;
+    text-align: center;
+    text-align: center;
+    font-size:17px;
+    font-style: italic;
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  .span_id{
+    text-align: center;
+    text-align: center;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  .personalData{
+    margin-left: auto;
+    margin-right: auto;
+    width: 21em
+  }
+
+  /* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
