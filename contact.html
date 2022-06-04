@@ -18,40 +18,45 @@
     <a href="./Hobbies.html">Hobbies</a>
     <a href="https://www.facebook.com/ameya.gidh/" class="fa fa-facebook"></a>
     <a href="https://twitter.com/GidhAmeya" class="fa fa-twitter"></a>
-    <a href="www.linkedin.com/in/ameya-gidh" class="fa fa-linkedin"></a>
+    <a href="https://www.linkedin.com/in/ameya-gidh" class="fa fa-linkedin"></a>
     <a href="https://github.com/AmeyaSantoshGidh" class="fa fa-github"></a>
 
   </div>
 </div>
 </div>
-<div class="main">
-  <h2 class = "">Contact Me</h2>
-  <form action="action_page.php">
+<h1>
+  <center>
+  Contact Me
+  <img src="/static/call.png" alt ="my_image">
+</center>
+</h1>
+<div class="form_style">
+<div class="form_container">
+  <form id="myform" onsubmit="return handle_form_submission()"> <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <div class="container">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name.." size="50">
-<br><br><br>
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name.." size="50">
-  <br><br><br>
-  <label for="country">Country</label>
-  <select id="country" name="country">
-    <option value="australia">Australia</option>
-    <option value="canada">Canada</option>
-    <option value="usa">USA</option>
-  </select>  
-  <br><br><br>
-<label for="subject">Question: </label>
-<br><br><br>
-<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width : 700px"></textarea>
-<br><br><br>
-<input type="submit" value="Submit">
-<br><br><br>
-</form>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <button onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+  </form>
+</div>
+</div>
+</div>
+</div>
 <footer>
-  <p>Author: Ameya Santosh Gidh<br>
+  Author: Ameya Santosh Gidh<br>
   <a href="gidh.am@northeastern.edu">gidh.am@northeastern.edu</a></p>
 </footer>
 
