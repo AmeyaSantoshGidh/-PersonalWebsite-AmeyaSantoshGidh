@@ -82,14 +82,11 @@
     width: 21em
   }
   
-  /* Add a hover effect if you want */
+
   .fa:hover {
     opacity: 0.7;
   }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
+
   .fa-facebook {
     background: #3B5998;
     color: white;
@@ -102,7 +99,7 @@
   } 
  
   .read {
-    background-image: url("/static/Images/books.jpg");
+    background-picture: url("/static/Images/books.jpg");
     width:100%;
     height: 100%;
     background-position: center;
@@ -165,7 +162,7 @@
   cursor: pointer;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  holder-shadow: 0 9px #999;
 }
 .btn_me:hover{
   background-color:#654c4c;
@@ -177,14 +174,14 @@
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+* {holder-sizing: border-holder;}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
+  holder-sizing: border-holder;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -246,13 +243,13 @@ input[type=submit]:hover {
   margin-bottom: 14px;
   padding: 12px;
   border-radius: 1.5rem;
-  box-shadow: 0 3.5px 8px rgba(24, 24, 24, 0);
+  holder-shadow: 0 3.5px 8px rgba(24, 24, 24, 0);
   background: rgba(0, 0, 0, 0.9);
   transition: 0.1s;
 }
 .skills .container_skills .bar:hover {
   background-color: rgba(0, 0, 0, 0) ;
-  box-shadow: 0 12px 12px #ffc9c92e ;
+  holder-shadow: 0 12px 12px #ffc9c92e ;
 }
 .skills .container_skills .bar .info {
   align-items: center;
@@ -269,7 +266,7 @@ input[type=submit]:hover {
   font-weight: 700;
   margin-left: 0.7rem;
 }
-/* skills media queries starts*/
+
 @media screen and (max-width: 600px) {
   .skills .container_skills {
     padding: 0;
@@ -305,102 +302,108 @@ input[type=submit]:hover {
   }
 }
 
-/* education section starts */
 .education {
-  background-color: #ffc1c12e;
-  min-height: 80vh;
+    min-height: 80vh;
+  background-color: #3415152e;
+
 }
 
-.education .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.education .b1_holder {
   align-items: center;
   flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-information__: center;
+  
 }
 
-.education .box-container .box {
+.education .b1_holder .holder {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  width: 83%;
+   margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.4s;
+  background: rgb(246, 246, 246);
+  border-radius: 0.7rem;
+  holder-shadow: 0.3rem 0.45rem 2rem rgba(0, 0, 0, 0.4);
   text-align: center;
   position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: 0.3s;
-  background: rgb(252, 252, 252);
+
 }
-.education .box-container .box:hover {
-  transform: scale(1.03);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+.education .b1_holder .holder:hover {
+  transform: scale(1.05);
+   holder-shadow: 0.3rem 0.45rem 2rem rgba(0, 0, 0, 0.4);
 }
-.education .box-container .box .image {
-  flex: 1 1 20rem;
-  width: 100%;
+.education .b1_holder .holder .picture {
+    width: 100%;
+  flex: 1 1 23rem;
 }
-.education .box-container .box img {
-  object-fit: cover;
-  position: relative;
+.education .b1_holder .holder img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  position: relative;
+
 }
-.education .box-container .box .content {
+.education .b1_holder .holder .information__ {
+    padding: 1.02rem;
+  flex-wrap: wrap;
+  flex: 1 1 72rem;
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  flex-wrap: wrap;
-  flex: 1 1 70rem;
+
 }
-.education .box-container .box .content h3 {
+.education .b1_holder .holder .information__ h3 {
+    padding: 0.6rem 0.2;
+  font-weight: 650;
+  text-align: left;
+  margin-left: 1rem;
   font-size: 2.5rem;
-  color: #800000;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  text-align: left;
-  margin-left: 1rem;
+  color: #970909;
+
 }
-.education .box-container .box .content p {
-  font-size: 1.5rem;
-  margin-left: 1rem;
-  text-align: left;
+.education .b1_holder .holder .information__ p {
+     text-align: left;
+    font-size: 1.6rem;
+	margin-left: 1.31rem;
+ 
 }
 .education h4 {
-  font-size: 2rem;
-  color: rgb(34, 109, 0);
+  font-size: 2.2rem;
   text-align: left;
-  margin: 1rem;
-  font-weight: 700;
+  margin: 1.03rem;
+  font-weight: 750;
 }
 
-/* education media queries starts*/
 @media screen and (max-width: 600px) {
-  .education .box-container .box {
-    flex-direction: column;
+  .education .b1_holder .holder {
+    width: 100%;
+	flex-direction: column;
+    
+  }
+  .education .b1_holder .holder .picture {
+    width: 100%;
+    height: 24rem;
+  }
+  .education .b1_holder .holder img {
     width: 100%;
   }
-  .education .box-container .box .image {
-    width: 100%;
-    height: 25rem;
-  }
-  .education .box-container .box img {
-    width: 100%;
-  }
-  .education .box-container .box .content {
+  .education .b1_holder .holder .information__ {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.01rem;
     flex-wrap: wrap;
     flex: 0;
   }
   .education .btns {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+       margin-left: 1.02rem;
+    margin-right: 1.03rem;
     flex-wrap: wrap;
+	margin-top: 2.1rem;
+ 
   }
 }
 
