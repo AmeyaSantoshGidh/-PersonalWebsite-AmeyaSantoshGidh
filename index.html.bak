@@ -88,94 +88,94 @@
 </center>
   <div class="container_skills">
         <div class="row" id="skillsContainer">
-          <div class="col_">
+          <div class="bar">
             <div class="info">
               <img src="/static/icons_/powerBi.png" alt="PowerBi" />
               Power Bi
             </div>
           </div>
-           <div class="col_">
+           <div class="bar">
             <div class="info">
               <img src="/static/icons_/haskell.png" alt="Haskell" />
               Haskell
             </div>
           </div>
-           <div class="col_">
+           <div class="bar">
             <div class="info">
               <img src="/static/icons_/c.png" alt="C" />
               C
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/api.png" alt="Api" />
               API
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/css.png" alt="CSS" />
               CSS
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/unity.png" alt="sass" />
               Unity
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/html.png" alt="HTML" />
               HTML
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/java.png" alt="Java" />
               Java
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/javascript.png" alt="JavaScript" />
               JavaScript
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/matlab.png" alt="Matlab" />
               Matlab
             </div>
-          </div> <div class="col_">
+          </div> <div class="bar">
             <div class="info">
               <img src="/static/icons_/json.png" alt="JSON" />
               JSON
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/sql.png" alt="SQL" />
               SQL
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/mongodb.png" alt="MongoDB" />
               MongoDB
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/postgress.png" alt="PostgressSQL" />
             PostgressSQL  
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/php.png" alt="Php" />
               PHP
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/mysql.png" alt="MYSQL" />
               MYSQL
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/ruby.png" alt="Ruby" />
               Ruby
             </div>
-          </div><div class="col_">
+          </div><div class="bar">
             <div class="info">
               <img src="/static/icons_/wordpress.png" alt="wordpress" />
               wordpress
@@ -189,32 +189,40 @@
   <center>
     <img src ="static/icons_/graduation.png"></h1><br>
     <h1>My Education</h1></center>
-    <section class="education" id="education">
-      <div class="box-container">
-        <div class="box">
-            <div class="image">
-            <img draggable="false" src="./static/Neu_logo.png" alt="college image">
-            </div>
-            <div class="content">
-            <h3>Masters of Science in Computer Science</h3>
-            <p>Northeastern University</p>
-            2021-2023
-            </div>
-        </div>
-    
-        <div class="box">
-          <div class="image">
-          <img draggable="false" src="./static/spce.png" alt="school image">
-          </div>
-          <div class="content">
-          <h3>Sardar Patel College Of Engineering</h3>
-          <p>Bachelors of Technology in Mechanical Engineering</p>
-          2017 - 2021
-          </div>
-        </div>
-    
-    </div>
-    </section>
+  <div class = "information">
+      <h1>Northeastern University</h1>
+      <div class = "Text1">
+          <img src="/static/neu.png" alt ="my_image">
+           <div style="padding:120px">
+             Pursuing masters in computer science.
+             I joined in fall 2021. During the course I studied
+             Intensive foundations of compyuter science, discrete structures,
+             Data structures and algorithms and their application to computer systems,
+             Algorithms, web development, mobile application development.
+  </div>
+  <div>
+  </div>
+</div>
+</div>
+
+<div>
+  <div class = "information">
+      <h1>Sardar Patel College of Engineering</h1>
+      <div class = "Text1">
+          <img src="/static/spce.png" alt ="my_image">
+           <div style="padding:120px">
+             Studied Mechanical Engineering from 2017-2021.
+             Worked on several assignments which were core mechanical engineering.
+             The courses include thermodynamics, power plant engineering,
+             Engineering drawing, computational fluid dynamics, automobile engineering,
+             manufacturing methods, material science, optimization methods, computer programming,
+             foundations of Artificial intelligence and machine learning, mechatronics, digital image processing.
+  </div>
+  <div>
+  </div>
+</div>
+  </div>
+</div>
 <hr>
 <footer>
   <p>Author: Ameya Santosh Gidh<br>
